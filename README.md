@@ -47,7 +47,6 @@ This project is a Student Module for a School Management System. It provides a R
 
    ```bash
    npm run schema-update   
-```
 
 5. **Run the Application:**
 
