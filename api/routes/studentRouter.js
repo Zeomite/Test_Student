@@ -24,11 +24,11 @@ router.get('/students', studentController.getStudents);
 router.get('/students/:regNo', studentController.getStudentByRegNo);
 
 /**
- * @route PATCH /students/:regNo
+ * @route PUT /students/:regNo
  * @desc Update an existing student's record.
  * @access Public
  */
-router.patch('/students/:regNo', studentController.updateStudent);
+router.put('/students/:regNo', studentController.updateStudent);
 
 /**
  * @route DELETE /students/:regNo
