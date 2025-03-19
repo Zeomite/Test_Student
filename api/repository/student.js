@@ -25,6 +25,7 @@ async function createStudent(studentData) {
 async function getStudents(skip = 0, take = 10) {
   try {
     const students = await prisma.student.findMany({
+      where: {status:true}, //will only show active students (Applies soft delete)
       skip,
       take,
     });
