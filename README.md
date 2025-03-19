@@ -23,7 +23,7 @@ This project is a Student Module for a School Management System. It provides a R
 1. **Clone the repository:**
 
    ```bash
-   git clone [<repository_url>](https://github.com/Zeomite/Test_Student.git)
+   git clone https://github.com/Zeomite/Test_Student.git
    cd Test_Student
    ```
 
